@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 
 function usdToUah (usd) {
 	var r;
@@ -15,8 +15,8 @@ function uahToUsd (uah) {
 function minmax (array) {
 	var min = Math.min(...array);
 	var max = Math.max(...array);
-	console.log("Min:" + min);
-	console.log("Max:" + max);
+	console.log("Min: " + min);
+	console.log("Max: " + max);
 }
 
 function average (array) {

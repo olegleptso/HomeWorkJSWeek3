@@ -1,8 +1,13 @@
 "use strict";
 
-function haha () {
+function haha (num) {
 	
-	for (var i = 10; i>0; i--){
-		console.log(i);
+	if (num == 1 ) {
+		console.log(1);
+		return 1;
 	}
+
+	
+	console.log(num);
+	haha(num-1);
 }
