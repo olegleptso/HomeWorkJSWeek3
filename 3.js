@@ -30,9 +30,10 @@ const users = {
       role: 'student'
     }
   },
+	
   5: {
     name: 'Kurz',
-    lastName: 'Smith',
+    lastName: 'Smith'
   },
 };
 
@@ -42,7 +43,6 @@ Object.keys(users).forEach(function(key) {
   if(user) {
      console.log('name: ', user.name);
      console.log('last name: ', users.lastName);
-     
-     console.log('role: ', user.otherData.role);
+     console.log('role: ', user.otherData ? user.otherData.role : null)
   }
 })
