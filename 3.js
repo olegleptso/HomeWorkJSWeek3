@@ -33,9 +33,6 @@ const users = {
   5: {
     name: 'Kurz',
     lastName: 'Smith',
-	otherData: {
-		role: 'student'
-    }
   },
 };
 
