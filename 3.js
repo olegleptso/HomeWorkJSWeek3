@@ -43,6 +43,6 @@ Object.keys(users).forEach(function(key) {
   if(user) {
      console.log('name: ', user.name);
      console.log('last name: ', users.lastName);
-     console.log('role: ', user.otherData ? user.otherData.role : "")
+     if (user.otherData) console.log("role: ", user.otherData.role);
   }
 })
